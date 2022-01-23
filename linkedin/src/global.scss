@@ -29,4 +29,21 @@
   --box-shadow: none;
   margin-top: 12px;
   width: 300px;
+  --background: none;
+}
+
+.custom-divider {
+  border-bottom: 1px groove rgba(128, 128, 128, 0.2);
+}
+ion-button {
+  text-transform: initial;
+}
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
